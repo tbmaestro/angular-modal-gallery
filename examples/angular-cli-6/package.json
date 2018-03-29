@@ -27,8 +27,12 @@
     "@angular/router": "^6.0.0-rc.1",
     "@fortawesome/fontawesome": "^1.1.4",
     "@fortawesome/fontawesome-free-solid": "^5.0.8",
+<<<<<<< HEAD
     "angular-modal-gallery": "^5.2.0",
     "core-js": "^2.5.4",
+=======
+    "core-js": "^2.4.1",
+>>>>>>> feat(): [BREAKING CHANGE] migrate to ng-packagr 2 and remove webpack example + remove {...} in all typedoc comments
     "hammerjs": "^2.0.8",
     "mousetrap": "^1.6.1",
     "rxjs": "^6.0.0-rc.0",
