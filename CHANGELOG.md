@@ -1,3 +1,28 @@
+# 6.0.0-alpha.2
+### Features
+- Description bottom margin in modal image is now 0px instead of 5px (BREAKING CHANGE)
+
+### Internal lib changes
+- migrate to angular 6
+- migrate ru rxjs 6
+- migrate to angular-cli 6
+
+
+# 6.0.0-alpha.1
+### Features
+- Support Angular Package Format specification v5 (BREAKING CHANGE)
+- Remove Angular 4 support (BREAKING CHANGE)
+- new package name `@ks89/angular-modal-gallery` (to install use `npm i  --save @ks89/angular-modal-gallery@next`)
+
+### Internal lib changes
+- migrate to nwrl/nx 0.9.0
+- migrate to ng-packagr 2
+
+### Demos
+- remove webpack example
+- update all example
+
+
 # 5.7.0
 ### Features
 - Add optional param to disable click events on the current image #135 (@iss936)
@@ -31,31 +56,6 @@
 # 5.5.0
 ### Features
 - add new spinners https://codepen.io/WebSonata/pen/bRaONB, https://codepen.io/nikhil8krishnan/pen/dMEzGx, https://codepen.io/devilishalchemist/pen/emOVYQ #117
-
-
-# 6.0.0-alpha.2
-### Features
-- Description bottom margin in modal image is now 0px instead of 5px (BREAKING CHANGE)
-
-### Internal lib changes
-- migrate to angular 6
-- migrate ru rxjs 6
-- migrate to angular-cli 6
-
-
-# 6.0.0-alpha.1
-### Features
-- Support Angular Package Format specification v5 (BREAKING CHANGE)
-- Remove Angular 4 support (BREAKING CHANGE)
-- new package name `@ks89/angular-modal-gallery` (to install use `npm i  --save @ks89/angular-modal-gallery@next`)
-
-### Internal lib changes
-- migrate to nwrl/nx 0.9.0
-- migrate to ng-packagr 2
-
-### Demos
-- remove webpack example
-- update all example
 
 
 # 5.4.0
