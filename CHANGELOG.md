@@ -1,3 +1,14 @@
+# 6.0.0-alpha.3
+### Features
+- move loadingConfig, description and downloadble into CurrentImageConfig
+
+### Demos
+- Update all examples
+
+### Testing
+- Update unit testing with the new CurrentImageConfig
+
+
 # 6.0.0-alpha.2
 ### Features
 - Description bottom margin in modal image is now 0px instead of 5px (BREAKING CHANGE)
