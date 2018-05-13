@@ -1,3 +1,12 @@
+# 6.0.0-beta.1
+# Docs
+- release documentation website beta.1
+
+### Demos
+- Update all examples to Angular 6 (also universal)
+- Add an example with Angular 5.x.x and angular-cli 1.7.x
+
+
 # 6.0.0-alpha.4
 ### Features
 - add full-screen button in FULL strategy
