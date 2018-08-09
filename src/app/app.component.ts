@@ -63,6 +63,7 @@ import {
 export class AppComponent {
   imageIndex = 1;
   galleryId = 1;
+  autoPlay = true;
 
   customPlainGalleryRowConfig: PlainGalleryConfig = {
     strategy: PlainGalleryStrategy.CUSTOM,
@@ -750,6 +751,10 @@ export class AppComponent {
   openModalViaService(id: number | undefined, index: number) {
     console.log('opening gallery with index ' + index);
     this.galleryService.openGallery(id, index);
+  }
+
+  onChangeAutoPlay() {
+    this.autoPlay = !this.autoPlay;
   }
 
   trackById(index: number, item: Image) {
