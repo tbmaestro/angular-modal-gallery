@@ -1,3 +1,18 @@
+# 7.0.0-alpha.1
+### Features
+- add (plain) carousel
+- new method in GalleryService called 'navigateGallery'
+
+### Internal library changes
+- migrate to the official ng lib features in angular-cli >= 6
+
+### Demos
+- update all examples
+
+### Documentations
+- new documentation website https://github.com/Ks89/angular-modal-gallery-2018-v7.github.io
+
+
 # 6.2.3
 ### Bugfixes
 - when you press the back button, page scroll remains blocked, because the modal gallery isn't completely closed (reported by @srtab #159)
