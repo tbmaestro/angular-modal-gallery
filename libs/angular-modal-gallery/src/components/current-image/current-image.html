@@ -45,7 +45,14 @@
          (load)="onImageLoad($event)"
          (click)="onImageEvent($event, clickAction)" (keyup)="onImageEvent($event, keyboardAction)"
          (swipeleft)="swipe($event.type)"
-         (swiperight)="swipe($event.type)"/>
+         (swiperight)="swipe($event.type)"
+         (pinchstart)="onPinch($event, 'start')"
+         (pinchmove)="onPinch($event, 'move')"
+         (pinchend)="onPinch($event, 'end')"
+         (pinchcancel)="onPinch($event, 'cancel')"
+         (pinchin)="onPinch($event, 'in')"
+         (pinchout)="onPinch($event, 'out')"
+    />
     <figcaption *ngIf="getDescriptionToDisplay() !== ''"
                 class="inside description"
                 ksDescription [description]="configCurrentImage?.description"

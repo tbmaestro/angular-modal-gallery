@@ -31,6 +31,19 @@ import { KEYBOARD_CONFIGURATION, KeyboardService } from './services/keyboard.ser
 import { KeyboardServiceConfig } from './model/keyboard-service-config.interface';
 import { GalleryService } from './services/gallery.service';
 
+import { HAMMER_GESTURE_CONFIG, HammerGestureConfig } from '@angular/platform-browser';
+
+export class MyHammerConfig extends HammerGestureConfig {
+  overrides = <any> {
+    swipe: {enable: true},
+    pinch: {enable: true}
+  };
+  options = <any> {
+    enable: true,
+    // touchAction: 'pan-x pan-y'
+  };
+}
+
 /**
  * Module with `forRoot` method to import it in the root module of your application.
  */
@@ -56,6 +69,10 @@ export class ModalGalleryModule {
         {
           provide: GalleryService,
           useFactory: setupGalleryService
+        },
+        {
+          provide: HAMMER_GESTURE_CONFIG,
+          useClass: MyHammerConfig
         }
       ]
     };

@@ -406,6 +406,7 @@ export class CurrentImageComponent extends AccessibleComponent implements OnInit
    * @param action String that represent the direction of the swipe action. 'swiperight' by default.
    */
   swipe(action = this.SWIPE_ACTION.RIGHT) {
+    console.log('called swipe');
     switch (action) {
       case this.SWIPE_ACTION.RIGHT:
         if (this.configCurrentImage.invertSwipe) {
@@ -426,6 +427,12 @@ export class CurrentImageComponent extends AccessibleComponent implements OnInit
       // case this.SWIPE_ACTION.DOWN:
       //   break;
     }
+  }
+
+  onPinch(event: Event, name: string) {
+    console.log('pinch event', event);
+    console.log('pinch name', name);
+    alert('pinch ' + name);
   }
 
   /**
