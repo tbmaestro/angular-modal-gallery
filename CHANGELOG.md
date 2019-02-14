@@ -1,3 +1,16 @@
+# 7.3.0
+### Features
+- **support image download also as base64**
+- **add config.service to store and share library configuration** (this is used only inside the library and it's a core feature for future releases like 8.0.0) #180
+
+### Demos
+- fix some issues in all examples
+- fix example B23 to enable delete button
+
+### Testing
+- update tests
+
+
 # 7.2.1
 ### Bugfixes
 - fix issue cannot read property 'pauseOnHover' of undefined (requested by @alvinmactal #177)
