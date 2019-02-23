@@ -1,10 +1,10 @@
-# 7.3.0
+# 7.3.0-rc.1
 ### Features
 - **support image download also as base64**
 - **add config.service to store and share library configuration** (this is used only inside the library and it's a core feature for future releases like 8.0.0) #180
 
 ### Demos
-- fix some issues in all examples
+- fix some issues and update all examples
 - fix example B23 to enable delete button
 
 ### Testing
