@@ -191,7 +191,7 @@ export class UpperButtonsComponent extends AccessibleComponent implements OnInit
       // (I'll fill this value inside the parent of this component
       image: null,
       action: action,
-	  elementRef: event.target
+      elementRef: event.target
     };
     switch (button.type) {
       // case ButtonType.REFRESH:
