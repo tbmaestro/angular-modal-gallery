@@ -195,7 +195,8 @@ describe('ModalGalleryComponent', () => {
       const mockButtonEvent: ButtonEvent = {
         button: <InternalButtonConfig>{type: ButtonType.CUSTOM, id: 1},
         image: null,
-        action: Action.CLICK
+        action: Action.CLICK,
+        elementRef: null
       };
       const currentImage: InternalLibImage = IMAGES[0];
       comp.id = 0;
@@ -265,7 +266,8 @@ describe('ModalGalleryComponent', () => {
       const mockButtonEvent: ButtonEvent = {
         button: <InternalButtonConfig>{type: ButtonType.DELETE, id: 1},
         image: null,
-        action: Action.CLICK
+        action: Action.CLICK,
+        elementRef: null
       };
 
       // mock current-image component
@@ -315,7 +317,8 @@ describe('ModalGalleryComponent', () => {
       const mockButtonEvent: ButtonEvent = {
         button: <InternalButtonConfig>{type: ButtonType.DELETE, id: 2},
         image: null,
-        action: Action.CLICK
+        action: Action.CLICK,
+        elementRef: null
       };
 
       // mock current-image component
@@ -365,7 +368,8 @@ describe('ModalGalleryComponent', () => {
       const mockButtonEvent: ButtonEvent = {
         button: <InternalButtonConfig>{type: ButtonType.DELETE, id: 1},
         image: null,
-        action: Action.CLICK
+        action: Action.CLICK,
+        elementRef: null
       };
 
       // mock current-image component
@@ -484,7 +488,8 @@ describe('ModalGalleryComponent', () => {
       const mockButtonEvent: ButtonEvent = {
         button: <InternalButtonConfig>{type: ButtonType.CLOSE, id: 5},
         image: null,
-        action: Action.CLICK
+        action: Action.CLICK,
+        elementRef: null
       };
       const currentImage: InternalLibImage = IMAGES[0];
       comp.id = 0;
@@ -810,7 +815,8 @@ describe('ModalGalleryComponent', () => {
       const mockButtonEvent: ButtonEvent = {
         button: <InternalButtonConfig>{type: ButtonType.DOWNLOAD, id: 1},
         image: null,
-        action: Action.CLICK
+        action: Action.CLICK,
+        elementRef: null
       };
       const currentImage: InternalLibImage = IMAGES[0];
       comp.id = 0;
@@ -847,7 +853,8 @@ describe('ModalGalleryComponent', () => {
       const mockButtonEvent: ButtonEvent = {
         button: <InternalButtonConfig>{type: ButtonType.DOWNLOAD, id: 3},
         image: null,
-        action: Action.CLICK
+        action: Action.CLICK,
+        elementRef: null
       };
       const currentImage: InternalLibImage = IMAGES[0];
       comp.id = 0;

@@ -210,7 +210,8 @@ function getButtonEvent(button: ButtonConfig): ButtonEvent {
     button: button,
     // upper-buttons.component always returns a null image to the main component, so I should test for a null
     image: null,
-    action: Action.CLICK
+    action: Action.CLICK,
+    elementRef: null
   };
 }
 
